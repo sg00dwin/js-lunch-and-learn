@@ -58,6 +58,7 @@ switch(name) {
 throw new Error('dang it broke');
 
 
+
 // Types and Primitives
 
 // To understand this article, you’ll need to understand the difference between primitive and non-primitive values in JavaScript. There are 5 primitive types, which are associated with the various primitive values.
