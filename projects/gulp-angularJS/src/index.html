@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="todoApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello World</title>
+
+    <!-- vendor:css -->
+    <link rel="stylesheet" href="/todomvc-app-css/index.css">
+    <!-- endinject -->
+
+    <!-- app:css -->
+    <link rel="stylesheet" href="/components/hello-world/hello.css">
+    <!-- endinject -->
+  </head>
+  <body>
+    <div ng-view></div>
+
+    <!-- vendor:js -->
+    <script src="/lodash/lodash.js"></script>
+    <script src="/angular/angular.js"></script>
+    <script src="/angular-route/angular-route.js"></script>
+    <!-- endinject -->
+
+    <!-- app:js -->
+    <script src="/app.module.js"></script>
+    <script src="/app.routes.js"></script>
+    <script src="/components/errors/errors.component.js"></script>
+    <script src="/components/todo-page/todoPage.component.js"></script>
+    <script src="/components/hello-world/hello.js"></script>
+    <script src="/components/todos/todo-list/todoList.component.js"></script>
+    <script src="/components/todos/todo-form/todoForm.component.js"></script>
+    <!-- endinject -->
+  </body>
+</html>

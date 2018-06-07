@@ -1,0 +1,5 @@
+[
+  { "id": 123456, "text": "Do this", "complete": false },
+  { "id": 234567, "text": "Do that", "complete": true },
+  { "id": 345678, "text": "Do other things", "complete": false }
+]
